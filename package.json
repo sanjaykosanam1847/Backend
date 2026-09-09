@@ -2,12 +2,30 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "backend development",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/sanjaykosanam1847/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/sanjaykosanam1847/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjaykosanam1847/Backend.git"
+  },
   "license": "ISC",
-  "type": "commonjs"
+  "author": "sanjay",
+  "type": "module",
+  "main": "src/config/index.js",
+  "scripts": {
+    "start": "node src/config/index.js",
+    "dev": "nodemon src/config/index.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
